@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#game-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+/* # refere-se a ID */
+#game-container h1 {  
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+#start-button {
+    width: 210px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+}
+
+#start-button:hover {
+    background-color: #005cb3;
+    transform: scale(1.1);
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+/* . refere-se a CLASS */
+.red {
+    background-color: #ff4136;
+}
+
+.green {
+    background-color: #2ecc40;
+}
+
+.blue {
+    background-color: #0074d9;
+}
+
+.yellow {
+    background-color: #ffdc00;
+}
