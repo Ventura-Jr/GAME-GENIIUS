@@ -1,15 +1,13 @@
 # Descrição
 O Simon(Genius) é um jogo eletrônico clássico de memória, criado em 1978 pelo engenheiro de software Ralph H. Baer e pelo designer Howard J. Morrison. O jogo é composto por quatro botões coloridos. O objetivo do jogo é repetir a sequência de cores emitidas pelo dispositivo pressionando os botões corretos na ordem certa.
 
-image.png
-
-Este projeto consiste na criação de uma versão web do jogo Simon utilizando HTML, CSS e JavaScript. 
+![image](https://user-images.githubusercontent.com/122493018/235312674-1cbe9d85-fec9-4ce3-9e9a-359d2a9eb4ca.png)
 
 # Como jogar
-1 O jogo reproduzirá uma sequência de cores;
-2 Repita a sequência de cores clicando nos botões correspondentes na ordem correta;
-3 Se você acertar, o jogo passará para o próximo nível de dificuldade;
-4 Se você errar, o jogo irá lhe perguntar se deseja reiniciar.
+O jogo reproduzirá uma sequência de cores;</br>
+Repita a sequência de cores clicando nos botões correspondentes na ordem correta;</br>
+Se você acertar, o jogo passará para o próximo nível de dificuldade;</br>
+Se você errar, o jogo irá lhe perguntar se deseja reiniciar.
 
 # Desenvolvimento
 O Simon foi desenvolvido utilizando as seguintes tecnologias:
